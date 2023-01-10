@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo1.svg"/>
+    <title>Coffee Store - Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:wght@300;400&display=swap");
+    </style>
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo1.svg" alt="CoffeeStoreLogo" height="50" />
+                </a>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stripe">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mapa">Ubicación</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="acercade.html">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="cover d-flex justify-content-center align-items-center flex-column">
+            <img src="./images/logo2.svg" alt="CoffeeStoreLogo" class="img-cover" />
+            <p>El mejor café de la ciudad</p>
+            <button class="btn btn-warning" href="acercade.html">Conoce más</button>
+        </div>
+    </header>
+
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="d-flex justify-content-center align-items-center mb-5">
+                <h1>Del campo a tu mesa, de manera responsable</h1>
+            </div>
+            <div class="row d-flex justify-content-around">
+                <div class="card" style="width: 18rem">
+                    <div title="Cultivo Ecológico Responsable" class="cover cover-small" style="
+                background-image: url(./images/adrian-infernus-BN6iQEVN0ZQ-unsplash.jpg);"></div>
+                    <div class="card-body">
+                        <h4 class="card-title">Cultivo Ecológico Responsable</h4>
+                        <p class="card-text">
+                            Trabajamos con caficultores responsables que usan tratamientos
+                            ecológicos.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                    <div title="Comercio Justo" class="cover cover-small" style="
+                background-image: url(./images/julio-deras-voiy0lDEBOE-unsplash.jpg);"></div>
+                    <div class="card-body">
+                        <h4 class="card-title">Comercio Justo</h4>
+                        <p class="card-text">
+                            Adquirir café en Coffee Store significa que tu dinero va
+                            directamente y de manera responsable a los caficultores.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                    <div title="Pasión por el Café" class="cover cover-small" style="
+                background-image: url(./images/fahmi-fakhrudin-nzyzAUsbV0M-unsplash.jpg);"></div>
+                    <div class="card-body">
+                        <h4 class="card-title">Pasión por el Café</h4>
+                        <p class="card-text">
+                            Nos apasiona el café, por lo que siempre trabajamos para
+                            servirte café de calidad.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row mb-5">
+                <div class="col-12 col-sm-6 col-lg-5">
+                    <img src="./images/undraw_coffee_with_friends_3cbj.svg" class="img-fluid" alt="Amigos con café">
+                </div>
+                <div class="col-12 col-sm-6">
+                    <h2>¡Inicia tu día con una taza de café!</h2>
+                    <p>Ordena una bolsa de café a domicilio o busca tu Coffee Store más cercano</p>
+                    <a href="#mapa" class="link-secondary">Ir al Mapa</a>
+                </div>
+            </div>
+            <form action="">
+                <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                <div class="d-flex">
+                    <div class="flex-fill me-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <button type="submit" class="btn btn-warning ml-5">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5 mb-5" id="stripe">
+            <div class="product-stripe">
+                <div class="stripe-container">
+                    <div class="card">
+                        <div title="Taza de Café 1" class="cover cover-small" style="
+                    background-image: url(./images/1.jpg);"></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Mocca</h4>
+                            <span class="badge text-bg-warning">U$D 2</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div title="Taza de Café 2" class="cover cover-small" style="
+                    background-image: url(./images/2.jpg);"></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Latte</h4>
+                            <span class="badge text-bg-warning">U$D 2</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div title="Taza de Café 3" class="cover cover-small" style="
+                    background-image: url(./images/3.jpg);"></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Lungo</h4>
+                            <span class="badge text-bg-warning">U$D 1</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div title="Taza de Café 4" class="cover cover-small" style="
+                    background-image: url(./images/4.jpg);"></div>
+                        <div class="card-body">
+                            <h4 class="card-title">Espresso</h4>
+                            <span class="badge text-bg-warning">U$D 3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5 mb-5" id="mapa">
+            <h3>Aquí nos vemos:</h3>
+            <p>Güemes 245, Resistencia, Chaco, Argentina</p>
+            <div class="responsive-iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d885.155380740988!2d-58.98428407075476!3d-27.44990360881569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450cf420b2a05d%3A0x86fddf5f4538f86d!2sG%C3%BCemes%20245%2C%20H3500CBE%20Resistencia%2C%20Chaco!5e0!3m2!1ses!2sar!4v1673363212771!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <hr>
+        </div>
+        <div class="footer-cris">
+            <div class="cris-info">
+                <a href="https://github.com/CrisBaez-93" target="_blank">
+                    <img src="./images/logo-cris.svg" alt="">
+                </a>
+            </div>
+            <div class="cris-info">
+                <div class="info-web">
+                    <p>Web creada con:</p>
+                </div>
+                <div class="cris-vectors">
+                    <img src="./images/html-vector.svg" alt="HTML5 Logo">
+                    <img src="./images/css-vector.svg" alt="CSS3 Logo">
+                    <img src="./images/ps-vector.svg" alt="Photoshop Logo">
+                </div>
+            </div>
+            <div class="cris-info">
+                <p>© 2023 - Resistencia, Argentina <i class="em em-flag-ar" aria-role="presentation" aria-label="Argentina Flag"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
